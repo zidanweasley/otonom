@@ -1,0 +1,234 @@
+@font-face {
+    src: url(/fonts/Montserrat-Bold.otf);
+    font-family: Montserrat-Bold;
+}
+     @font-face {
+
+        src: url(/fonts/Montserrat-Light.otf);
+        font-family: Montserrat-Light;
+    } 
+
+
+.jumbotron {
+    background-color: white;
+
+}
+
+.img1 img {
+width: 200px;
+padding: 18px;
+
+}
+
+.img3 img {
+    width: 230px;
+   padding: 10px;
+    
+    margin-top: 20px;
+    }
+.img4 img {
+        width: 200px;
+       
+       padding: 10px;
+        
+    }
+.img5 img {
+        width: 130px;
+           padding: 10px;
+          
+         
+    }
+
+.img2 img {
+    width: 200px;
+    
+    padding: 8px;
+    margin-left: 20px;
+    }
+
+.header-name h2{
+    
+    margin-top: 50px;
+    text-align: left;
+    font-family: 'Montserrat-Bold';
+    font-size: 55px;
+    margin-left: 20px;
+    padding: 20px;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 0.4);
+}
+.header-name h2 span {
+    font-family: 'Montserrat-Light';
+    color: #10AADB;
+}
+
+.info {
+    margin-top: 640px;
+    
+}
+
+.radar {
+    margin-top: 300px;
+    
+        text-align: center;
+
+}
+
+.pengertian {
+    margin-top: 300px;
+    background-color: #bae2d3;
+}
+
+.pengertian h1 {
+    font-family: 'Montserrat-Bold';
+    text-align: center;
+    padding: 20px;
+    margin: 50px 0px;
+    color: #322f56!important;
+    border-bottom: 2px solid seagreen;
+   
+}
+.pengertian p {
+    line-height: 2.2;
+    font-family: 'Montserrat-Light';
+    font-size: 17px;
+    
+}
+.level .card {
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #143d59;
+    transition:  all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+.level .card:hover {
+    background: #f4b41a;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.level .card:hover h3 {
+    color: white;
+}
+
+
+.level .card {
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #bae2d3;
+    transition:  all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+.level  {
+    margin-top: 80px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.level h1 {
+    font-family: 'Montserrat-Bold';
+}
+
+.level h4 {
+    font-weight: 100;
+    text-align: center;
+}
+.level p {
+    font-family: 'Montserrat-Light';
+}
+
+footer {
+    border-top: 1px solid yellow;
+    margin-top: 100px;
+}
+footer p {
+    margin-top: 20px;
+    font-family: 'Montserrat-Light';
+}
+
+/* 
+desktop */
+@media (min-width: 992px) {
+
+
+    .img1 img {
+        width: 650px;
+        padding: 18px;
+        margin-left: 20px;
+        
+        }
+        
+        .img3 img {
+            width: 550px;
+           padding: 10px;
+            
+            margin-top: 20px;
+            margin-left: 200px;
+            
+            }
+        .img4 img {
+                width: 900px;
+               margin-top: 90px;
+               padding: 18px;
+               height: 150px;
+                
+            }
+        .img5 img {
+                width: 600px;
+                   padding: 10px;
+                   margin-top: 20px ;
+                 margin-right: 20px;
+                 height: 150px;
+            }
+        
+        .img2 img {
+            width: 300px;
+            
+            padding: 8px;
+            margin-left: 20px;
+           
+            }
+        
+        .header-name h2{
+            
+            
+            text-align: center;
+            font-family: 'Montserrat-Bold';
+            font-size: 70px;
+            margin-right: 90px;
+         
+            padding: 20px;
+        }
+        .header-name h2 span {
+            font-family: 'Montserrat-Light';
+            color: #10AADB;
+        }
+
+}
+.info h2  {
+    font-size: 30px;
+    font-family: 'Montserrat-Bold';
+}
+.info p {
+    font-size: 18px;
+    color: #ACACAC;
+    font-family: 'Montserrat-Light';
+}
+.radar h2  {
+    font-size: 30px;
+    font-family: 'Montserrat-Bold';
+}
+.radar p {
+    font-size: 18px;
+    color: #ACACAC;
+    font-family: 'Montserrat-Light';
+}
+
+
+
+
+/* end-desktop */
