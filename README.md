@@ -1,2 +1,0 @@
-# otonom
-mobil otonom technology
